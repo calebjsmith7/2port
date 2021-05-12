@@ -200,28 +200,21 @@ hr {
 
 
 .c {
-  background-image: url(./images/bluecar.jpg);
+  background-image: url(./images/newpic2.jpg);
 }
 .d {
-  background-image: url(./images/car1-7.jpeg);
-  
+  background-image: url(./images/newpic3.jpg);
+  background-position-y: 90%;
 }
-.e {
-  background-image: url(./images/steeringwheel.jpg);
-}
+
 @media (max-width: 800px){
   .c {
-    background-image: url(./images/bluecartall.jpg);
     background-attachment: scroll;
   }
   .d {
-    background-image: url(./images/yellowcar.jpg);
     background-attachment: scroll;
-  }
-  
-  .e {
-    background-image: url(./images/smallsteering.jpg);
-    background-attachment: scroll;
+    background-image: url(./images/newpic1.jpg);
+    background-position-y: auto;
   }
   
 }
@@ -258,20 +251,30 @@ hr {
   }
 }
 .techlogos {
-  width: 30%;
+  width: 32%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: -10%;
 }
 .techlogo {
   color: white;
   font-size: 50px;
-  width: 50px;
+  width: auto;
+  z-index: 5;
 }
+.techlogo:hover {
+  color:rgb(196, 180, 147);
+}
+#text1, #text2, #text3, #text4, #text5 {
+  display: none;
+  color: white;
+}
+
+
 /* contact */
 .contact-middle {
   color: rgb(196, 180, 147);

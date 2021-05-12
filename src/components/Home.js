@@ -7,7 +7,9 @@ import { HashLink } from 'react-router-hash-link';
 
 class Home extends Component {
   
+
   render() {
+
     return (
         <div>
             <a id="top"></a>
