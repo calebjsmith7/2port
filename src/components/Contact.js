@@ -20,7 +20,7 @@ class Contact extends Component {
 
     let templateParams = {
       from_name: email,
-      to_name: 'kennedyracecars@cs.com',
+      to_name: 'calebjoelsmith@gmail.com',
       subject: 'web inquiry',
       name: fname + " " + lname,
       email: email,
@@ -28,10 +28,10 @@ class Contact extends Component {
       explain: explain
     }
     emailjs.send(
-      'service_20ndysd',
-      'template_cdm96aj',
+      'service_tzr50ao',
+      'template_6bx4zh9',
       templateParams,
-      'user_1Unq2WuPDytkcr9AOqtwV'
+      'user_3ECwm7FTp2wFAry5GWeJF'
     );
     this.resetForm();
   }

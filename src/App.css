@@ -132,18 +132,15 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  @media only screen and (max-width: 768px) {
-    background-size: cover;
-  }
+  
 }
 .a {
-  overflow: hidden;
   background-color: #2b2b2b;
 }
 @media (max-width: 800px){
   .a {
-    overflow: hidden;
     background-image: url(./images/IMG_3548.JPG);
+    background-attachment: scroll;
   }
 }
 .b {
