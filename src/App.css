@@ -7,14 +7,13 @@
 /* navbar */
 
 .n {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
   text-align: right;
 }
 .navv {
   background-color: none;
   z-index: 3;
-  
 }
 .nbg {
   background-color: #2b2b2b5b;
@@ -34,8 +33,6 @@
   border: none;
   font-size: 3.5vh;
   height: auto;
-  padding-bottom: 70%;
-  padding-top: 70%;
 }
 .navbar-dark .navbar-toggler {
   border: 0;
@@ -91,7 +88,7 @@
   position: absolute !important;
   left: 50%;
   transform: translateX(-50%);
-  top: 12% !important;
+  top: 20px !important;
   font-size: 23px !important;
   text-decoration: none !important;
   color: transparent;
@@ -116,10 +113,11 @@
   .title {
     width: 30vw;
     height: 14vh;
-    top: 1% !important;
     background-color: none;
     margin-top: 0;
-  }}
+    top: 13px !important;
+  }
+}
 
   /* home page */
 
@@ -200,7 +198,7 @@ hr {
 
 
 .c {
-  background-image: url(./images/newpic2.jpg);
+  background-image: url(./images/newpic4.jpg);
 }
 .d {
   background-image: url(./images/newpic3.jpg);
@@ -210,6 +208,7 @@ hr {
 @media (max-width: 800px){
   .c {
     background-attachment: scroll;
+    background-image: url(./images/newpic5.jpg);
   }
   .d {
     background-attachment: scroll;
@@ -274,12 +273,16 @@ hr {
   color: white;
 }
 
-
+@media (max-width: 800px) {
+  .techlogos {
+    width: 50%;
+  }
+}
 /* contact */
 .contact-middle {
-  color: rgb(196, 180, 147);
+  color: white;
   font-weight: 800;
-  background-color: rgb(0, 0, 0);
+  background-color: #31708E;
   height: auto;
   width: 50vw;
   text-align: center;
@@ -287,25 +290,25 @@ hr {
 }
 
 .contact {
-  color: rgb(196, 180, 147);
+  color: white;
   font-weight: 800;
   margin: auto;
   padding-top: 1vh;
-  background-color: rgb(0, 0, 0);
+  background-color: #31708E;
   text-align: left;
   padding-left: 20%;
   padding-right: 20%;
 }
 .emailus, #fname, #lname, #email, #phone, #explanation {
   font-weight: 800;
-  color: rgb(196, 180, 147);
+  color: white;
 }
 #fname, #lname, #email, #phone, #explanation {
   color: black;
   height: 7vh;
 }
 .contactpage {
-  background-color: black;
+  background-color: #31708E;
   height: auto;
   padding-bottom: 3%;
 }
@@ -331,6 +334,9 @@ hr {
   .contact {
     padding-left: 2%;
     padding-right: 2%;
+  }
+  .contactpage {
+    padding-bottom: 8%;
   }
 }
 .cq {
@@ -397,6 +403,7 @@ hr {
     height: auto;
     flex-direction: column;
     padding: 5%;
+    padding-bottom: 10%;
   }
   .cw {
     font-size: 1.8vw;
@@ -461,8 +468,13 @@ hr {
 @media (max-width: 800px){
   
   .sa {
-    height: 35vh;
-    width: 90vw;
+    height: 50vh;
+    background-position-y: auto;
+    background-attachment: scroll;
+  }
+  .satext {
+    font-size: 50px;
+    padding-top: 30%;
   }
 }
 .sb {
@@ -477,7 +489,7 @@ hr {
   padding-top: 5%;
 }
 .spec {
-  color: #2b2b2b;
+  color: #31708E;
   font-size: 7vh;
   padding-top: 2%;
   text-align: left;
@@ -502,19 +514,22 @@ hr {
     padding-bottom: 10%;
   }
   .sb {
-    height: 230vh;
+    height: 190vh;
   }
   .triplebox, .b2, .b3 {
-    margin-top: 25%;
+    margin-top: 15%;
   }
   .b1 {
     margin-top: 5%;
+  }
+  .spec {
+    text-align: center;
   }
 }
 .triplebox {
   height: 330px;
   width: 385px;
-  background-color: #2b2b2b;
+  background-color: #31708E;
 }
 .triplebox:hover {
   width: 400px;
@@ -522,8 +537,8 @@ hr {
 }
 @media (max-width: 800px){
   .triplebox {
-    height: 50vh;
-    width: 90vw;
+    height: 40vh;
+    width: 80vw;
   }
 }
 .b1 {
@@ -541,7 +556,8 @@ hr {
   filter: grayscale(35%);
 }
 .b3 {
-  background-size: cover;
+  background-image: url(./images/jfcmissions.png);
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
   filter: grayscale(35%);

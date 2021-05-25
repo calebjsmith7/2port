@@ -15,17 +15,16 @@ class Services extends Component {
           </div>
           
           <div className='sb'>
-            <h1 className='spec'>Our Services</h1>
             <div className='boxes'>
-              <div className='triplebox b1'>
-                <h1 className='boxtext'>Kennedy Race Cars</h1>
-              </div>
-              <div className='triplebox b2'>
-                <h1 className='boxtext'>Jubilee Fellowship Church</h1>
-              </div>
-              <div className='triplebox b3'>
-                <h1 className='boxtext'>Coming Soon...</h1>
-              </div>
+              <a href="https://kennedy-84a26.web.app/">
+                <div className='triplebox b1'></div>
+              </a>
+              <a href="https://jubilee-3e466.web.app">
+                <div className='triplebox b2'></div>
+              </a>
+              <a href="https://jfc.org/missions">
+                <div className='triplebox b3'></div>
+              </a>
             </div>
            </div>
         </div>
