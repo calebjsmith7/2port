@@ -135,7 +135,7 @@
   
 }
 .a {
-  background-image: url(./images/calebwide.jpeg);
+  background-image: url(./images/calebultrawide.jpg);
 }
 @media (max-width: 800px){
   .a {
@@ -195,7 +195,8 @@ hr {
 
 
 .c {
-  background-image: url(./images/newpic4.jpg);
+  background-image: url(./images/newpic6.jpg);
+  
 }
 .d {
   background-image: url(./images/newpic3.jpg);
