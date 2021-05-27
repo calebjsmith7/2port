@@ -25,7 +25,7 @@ class Services extends Component {
               <a href="https://jfc.org/missions">
                 <div className='triplebox b3'></div>
               </a>
-              <a href="https://worshippro-43dc7.web.app">
+              <a href="https://worshippro.org">
                 <div className='triplebox b4'></div>
               </a>
             </div>
