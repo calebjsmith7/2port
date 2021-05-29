@@ -16,16 +16,16 @@ class Services extends Component {
           
           <div className='sb'>
             <div className='boxes'>
-              <a href="https://kennedy-84a26.web.app/">
+              <a href="https://worshippro.org">
                 <div className='triplebox b1'></div>
               </a>
-              <a href="https://jubilee-3e466.web.app">
+              <a href="https://kennedy-84a26.web.app/">
                 <div className='triplebox b2'></div>
               </a>
               <a href="https://jfc.org/missions">
                 <div className='triplebox b3'></div>
               </a>
-              <a href="https://worshippro.org">
+              <a href="https://jubilee-3e466.web.app">
                 <div className='triplebox b4'></div>
               </a>
             </div>

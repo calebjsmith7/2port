@@ -41,7 +41,7 @@ class Home extends Component {
                     <div className="techlogo fab fa-github"></div>
                     <div className="techlogo fab fa-wordpress-simple"></div>
                 </div>
-                <HashLink to="/services"><button className="designyours btn btn-light">CONTACT</button></HashLink>
+                <a href="http://github.com/calebjsmith7"><button className="designyours btn btn-light">VIEW CODE</button></a>
             </div>
         </div>
     );

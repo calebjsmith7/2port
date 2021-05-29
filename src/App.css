@@ -546,14 +546,14 @@ hr {
   }
 }
 .b1 {
-  background-image: url(./images/kenlogowht.png);
+  background-image: url(./images/WorshipPro-LOGO-WHITE.png);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
   filter: grayscale(35%);
 }
 .b2 {
-  background-image: url(./images/logo.png);
+  background-image: url(./images/kenlogowht.png);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
@@ -567,7 +567,7 @@ hr {
   filter: grayscale(35%);
 }
 .b4 {
-  background-image: url(./images/WorshipPro-LOGO-WHITE.png);
+  background-image: url(./images/logo.png);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
