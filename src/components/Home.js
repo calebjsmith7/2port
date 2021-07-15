@@ -35,12 +35,18 @@ class Home extends Component {
             <div className="d">
                 <h3 className="mods">TECH STACK</h3>
                 <div className="techlogos">
-                    <div className="techlogo fab fa-js-square"></div>
-                    <div className="techlogo fab fa-react"></div>
-                    <div className="techlogo fab fa-bootstrap"></div>
-                    <div className="techlogo fab fa-github"></div>
-                    <div className="techlogo fab fa-wordpress-simple"></div>
+                    <div className="techlogo fab fa-js-square" id="icon1"></div>
+                    <div className="showme">JavaScript</div>
+                    <div className="techlogo fab fa-react" id="icon2"></div>
+                    <div className="showme rtext">React</div>
+                    <div className="techlogo fab fa-bootstrap" id="icon3"></div>
+                    <div className="showme">Bootstrap</div>
+                    <div className="techlogo fab fa-github" id="icon4"></div>
+                    <div className="showme gtext">Github</div>
+                    <div className="techlogo fab fa-wordpress-simple" id="icon5"></div>
+                    <div className="showme">Wordpress</div>
                 </div>
+                
                 <a href="http://github.com/calebjsmith7"><button className="designyours btn btn-light">VIEW CODE</button></a>
             </div>
         </div>

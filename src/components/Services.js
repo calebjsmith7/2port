@@ -22,11 +22,17 @@ class Services extends Component {
               <a href="https://kennedy-84a26.web.app/">
                 <div className='triplebox b2'></div>
               </a>
-              <a href="https://jfc.org/missions">
+              <a href="https://greenhousebotanicals-a7a0b.web.app/">
                 <div className='triplebox b3'></div>
               </a>
-              <a href="https://jubilee-3e466.web.app">
+              <a href="https://shop.jfc.org">
                 <div className='triplebox b4'></div>
+              </a>
+              <a href="https://jfc.org/missions">
+                <div className='triplebox b5'></div>
+              </a>
+              <a href="https://jubilee-3e466.web.app">
+                <div className='triplebox b6'></div>
               </a>
             </div>
            </div>
