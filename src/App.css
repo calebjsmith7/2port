@@ -544,7 +544,7 @@ hr {
 .boxes {
   display: flex;
   flex-wrap: wrap;
-  width: 60vw;
+  width: 90vw;
   height: auto;
   justify-content: space-evenly;
   align-items: center;
@@ -553,6 +553,7 @@ hr {
   padding-bottom: 8%;
   padding-top: 5%;
 }
+
 @media (max-width: 800px) {
   .boxes {
     flex-direction: column;
@@ -596,41 +597,62 @@ hr {
   }
 }
 .b1 {
-  background-image: url(./images/WorshipPro-LOGO-WHITE.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: grayscale(35%);
-}
-.b2 {
   background-image: url(./images/kenlogowht.png);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
   filter: grayscale(35%);
 }
+.b2 {
+  background-image: url(./images/russo.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(35%);
+}
 .b3 {
-  background-image: url(./images/Greenhouse-white.png);
+  background-image: url(./images/trlogo.png);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
   filter: grayscale(35%);
 }
 .b4 {
-  background-image: url(./images/jfcstore.png);
+  background-image: url(./images/worshippads.png);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
   filter: grayscale(35%);
 }
 .b5 {
-  background-image: url(./images/jfcmissions.png);
+  background-image: url(./images/WorshipPro-LOGO-WHITE.png);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
   filter: grayscale(35%);
 }
 .b6 {
+  background-image: url(./images/Greenhouse-white.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(35%);
+}
+.b7 {
+  background-image: url(./images/jfcstore.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(35%);
+}
+.b8 {
+  background-image: url(./images/jfcmissions.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(35%);
+}
+.b9 {
   background-image: url(./images/logo.png);
   background-size: 80%;
   background-repeat: no-repeat;
