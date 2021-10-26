@@ -2,47 +2,151 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 
+import kenexample from '../images/kenexample.png';
+import russoexample from '../images/russoexample.png';
+import trexample from '../images/trexample.png';
+import wppexample from '../images/wppexample.png';
+import worshipproexample from '../images/worshipproexample.png';
+import greenhouseexample from '../images/greenhouseexample.png';
+import jfcstoreexample from '../images/jfcstoreexample.png';
+import jfcmissionsexample from '../images/jfcmissionsexample.png';
+import jfcexample from '../images/jfcexample.png';
+import jfcstore from '../images/jfcstore.png';
+import kenlogowht from '../images/kenlogowht.png';
+import trlogo from '../images/trlogo.png';
+import russo from '../images/russo.png';
+import worshippads from '../images/worshippads.png';
+import foolishfriends from '../images/foolishfriends.png';
+
 class Services extends Component {
-  constructor(props){
-    super(props);
-  }
+  
   render() {
     return (
         <div className='services'>
           <a id="top"/>
-          <div className='sa'>
-            <h1 className='satext'>PROJECTS</h1>
-          </div>
-          
           <div className='sb'>
+          <h1 className='satext'>Websites &amp; Apps</h1>
             <div className='boxes'>
-            <a href="https://kennedy-84a26.web.app/">
-                <div className='triplebox b1'></div>
-              </a>
-              <a href="https://wordpress-665021-2176451.cloudwaysapps.com/">
-                <div className='triplebox b2'></div>
-              </a>
-              <a href="https://tradersrally.com">
-                <div className='triplebox b3'></div>
-              </a>
-              <a href="https://apps.apple.com/us/app/worship-pads-pro/id1586199401">
-                <div className='triplebox b4'></div>
-              </a>
-              <a href="https://worshippro.org">
-                <div className='triplebox b5'></div>
-              </a>
-              <a href="https://greenhousebotanicals-a7a0b.web.app/">
-                <div className='triplebox b6'></div>
-              </a>
-              <a href="https://shop.jfc.org">
-                <div className='triplebox b7'></div>
-              </a>
-              <a href="https://jfc.org/missions">
-                <div className='triplebox b8'></div>
-              </a>
-              <a href="https://jubilee-3e466.web.app">
-                <div className='triplebox b9'></div>
-              </a>
+            
+                <div className='webprojects'>
+                    <a href="https://kennedy-84a26.web.app/">
+                    <img src={kenexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Kennedy Racecars</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">React</h4>
+                    <br/>
+                </div>
+              
+              
+                <div className='webprojects'>
+                <a href="https://daniellelrusso.com">
+                    <img src={russoexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Danielle Russo</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">WordPress</h4>
+                    <br/>
+                </div>
+              
+              
+                <div className='webprojects'>
+                <a href="https://tradersrally.com">
+                    <img src={trexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Traders Rally</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">WordPress and WooCommerce</h4>
+                    <br/>
+                </div>
+              
+              
+                <div className='webprojects'>
+                <a href="https://apps.apple.com/us/app/worship-pads-pro/id1586199401">
+                    <img src={wppexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Worship Pads Pro</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">React Native</h4>
+                    <br/>
+                </div>
+              
+             
+                <div className='webprojects'>
+                <a href="https://worshippro.org">
+                    <img src={worshipproexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Worship Pro</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">React</h4>
+                    <br/>
+                </div>
+              
+              
+                <div className='webprojects'>
+                <a href="https://greenhousebotanicals-a7a0b.web.app/">
+                    <img src={greenhouseexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Greenhouse Botanicals</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">React</h4>
+                    <br/>
+                </div>
+              
+              
+                <div className='webprojects'>
+                <a href="https://shop.jfc.org">
+                    <img src={jfcstoreexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Jubilee Store</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">WordPress and WooCommerce</h4>
+                    <br/>
+                </div>
+              
+              
+                <div className='webprojects'>
+                <a href="https://jfc.org/missions">
+                    <img src={jfcmissionsexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Jubilee Missions</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">WordPress</h4>
+                    <br/>
+                </div>
+             
+              
+                <div className='webprojects'>
+                <a href="https://jubilee-3e466.web.app">
+                    <img src={jfcexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Jubilee Fellowship Church</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">React</h4>
+                    <br/>
+                </div>
+              
+            </div>
+            <h1 className='satext'>Logos</h1>
+            <div className="boxes">
+                <div className='logoprojects'>
+                    <img src={jfcstore} className='logoimage'/>
+                </div>
+                <div className='logoprojects'>
+                    <img src={kenlogowht} className='logoimage'/>
+                </div>
+                <div className='logoprojects'>
+                    <img src={trlogo} className='logoimage alsize'/>
+                </div>
+                <div className='logoprojects'>
+                    <img src={russo} className='logoimage'/>
+                </div>
+                <div className='logoprojects'>
+                    <img src={worshippads} className='logoimage'/>
+                </div>
+                <div className='logoprojects'>
+                    <img src={foolishfriends} className='logoimage  alsize'/>
+                </div>
             </div>
            </div>
         </div>

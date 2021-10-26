@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Lowermenu from './components/Lowermenu';
-import $ from 'jquery';
+
 
 class App extends Component {
   constructor(props){

@@ -495,17 +495,18 @@ hr {
 
 .sa {
   background-color: #2b2b2b;
-  background-image: url(./images/mountain.jpg);
+  background-image: url(./images/coolbg.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position-y: 45%;
+  background-position-y: 55%;
   width: 100vw;
   height: 50vh;
 }
 .satext {
   color: white;
   font-size: 70px;
-  padding-top: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   font-weight: 400;
   font-family: 'Montserrat';
 }
@@ -524,6 +525,7 @@ hr {
 }
 .sb {
   background: #ffffff;
+  background-image: url(./images/coolbg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -596,69 +598,7 @@ hr {
     padding-bottom: 5%;
   }
 }
-.b1 {
-  background-image: url(./images/kenlogowht.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: grayscale(35%);
-}
-.b2 {
-  background-image: url(./images/russo.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: grayscale(35%);
-}
-.b3 {
-  background-image: url(./images/trlogo.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: grayscale(35%);
-}
-.b4 {
-  background-image: url(./images/worshippads.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: grayscale(35%);
-}
-.b5 {
-  background-image: url(./images/WorshipPro-LOGO-WHITE.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: grayscale(35%);
-}
-.b6 {
-  background-image: url(./images/Greenhouse-white.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: grayscale(35%);
-}
-.b7 {
-  background-image: url(./images/jfcstore.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: grayscale(35%);
-}
-.b8 {
-  background-image: url(./images/jfcmissions.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: grayscale(35%);
-}
-.b9 {
-  background-image: url(./images/logo.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: grayscale(35%);
-}
+
 .boxtext {
   font-size: 25px;
   margin-top: 350px;
@@ -681,3 +621,81 @@ hr {
   }
 }
 
+
+.webprojects {
+  height: 25%;
+  width: 29%;
+  background-color: #1e2427c7;
+  margin-top: 7%;
+}
+
+
+.projectimage {
+  width: 98%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.projecttext {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.projecttext:hover {
+  text-decoration: none;
+}
+.ptitles {
+  font-weight: bolder;
+}
+.projhr {
+  border-color: white;
+}
+@media (max-width: 800px){
+  .webprojects  {
+    height: 'auto';
+    width: 85vw;
+    margin-top: 7%;
+  }
+  
+}
+.logoimage {
+  width: 75%;
+  height: 'auto';
+  margin-top: 1%;
+  margin-bottom: 2%;
+  vertical-align: middle;
+  
+}
+.alternate {
+  padding-top: 13%;
+}
+.alsize {
+  width: 40%;
+}
+.logoprojects {
+  height: 35vh;
+  width: 29%;
+  background-color: #1e2427c7;
+  margin-top: 7%;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  margin: 1%;
+  justify-content: space-around;
+
+}
+@media (max-width: 800px){
+  .logoimage {
+    margin: 5%;
+  }
+  .logoprojects  {
+    height: 30vh;
+    width: 85vw;
+    margin-top: 7%;
+  }
+  .alternate {
+    margin: 5%;
+    padding-top: auto;
+  }
+  
+}
