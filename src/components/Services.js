@@ -17,6 +17,9 @@ import trlogo from '../images/trlogo.png';
 import russo from '../images/russo.png';
 import worshippads from '../images/worshippads.png';
 import foolishfriends from '../images/foolishfriends.png';
+import sbp from '../images/sbp-logo.png';
+import synthbassexample from '../images/synthbassexample.png';
+import roto from '../images/roto.png';
 
 class Services extends Component {
   
@@ -25,7 +28,7 @@ class Services extends Component {
         <div className='services'>
           <a id="top"/>
           <div className='sb'>
-          <h1 className='satext'>Websites &amp; Apps</h1>
+          <h1 className='satext'>Websites</h1>
             <div className='boxes'>
             
                 <div className='webprojects'>
@@ -60,16 +63,6 @@ class Services extends Component {
                     <br/>
                 </div>
               
-              
-                <div className='webprojects'>
-                <a href="https://apps.apple.com/us/app/worship-pads-pro/id1586199401">
-                    <img src={wppexample} className='projectimage'/>
-                    </a>
-                    <h2 className="projecttext ptitles">Worship Pads Pro</h2>
-                    <hr className="projhr"/>
-                    <h4 className="projecttext">React Native</h4>
-                    <br/>
-                </div>
               
              
                 <div className='webprojects'>
@@ -127,6 +120,32 @@ class Services extends Component {
                 </div>
               
             </div>
+
+            <h1 className='satext'>Apps</h1>
+            <div className="boxes">
+
+                <div className='webprojects'>
+                    <a href="https://apps.apple.com/us/app/worship-pads-pro/id1586199401">
+                        <img src={wppexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Worship Pads Pro</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">React Native</h4>
+                    <br/>
+                </div>
+
+                <div className='webprojects'>
+                    <a href="https://apps.apple.com/us/app/synth-bass-pro/id1592554833">
+                        <img src={synthbassexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Synth Bass Pro</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">React Native</h4>
+                    <br/>
+                </div>
+
+            </div>
+
             <h1 className='satext'>Logos</h1>
             <div className="boxes">
                 <div className='logoprojects'>
@@ -146,6 +165,12 @@ class Services extends Component {
                 </div>
                 <div className='logoprojects'>
                     <img src={foolishfriends} className='logoimage  alsize'/>
+                </div>
+                <div className='logoprojects'>
+                    <img src={sbp} className='logoimage'/>
+                </div>
+                <div className='logoprojects'>
+                    <img src={roto} className='logoimage alsize'/>
                 </div>
             </div>
            </div>
