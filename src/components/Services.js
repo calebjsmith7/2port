@@ -20,6 +20,7 @@ import foolishfriends from '../images/foolishfriends.png';
 import sbp from '../images/sbp-logo.png';
 import synthbassexample from '../images/synthbassexample.png';
 import roto from '../images/roto.png';
+import rotoexample from '../images/rotoexample.png';
 
 class Services extends Component {
   
@@ -139,6 +140,15 @@ class Services extends Component {
                         <img src={synthbassexample} className='projectimage'/>
                     </a>
                     <h2 className="projecttext ptitles">Synth Bass Pro</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">React Native</h4>
+                    <br/>
+                </div>
+                <div className='webprojects'>
+                    <a href="https://apps.apple.com/us/app/roto-electronic-toms/id1593485681">
+                        <img src={rotoexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Roto - Electronic Toms</h2>
                     <hr className="projhr"/>
                     <h4 className="projecttext">React Native</h4>
                     <br/>
