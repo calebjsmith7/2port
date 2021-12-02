@@ -16,7 +16,8 @@
   z-index: 3;
 }
 .nbg {
-  background-color: #2b2b2b5b;
+  background-color: #ffffff5b;
+  color: black;
   width: 15%;
   margin-right: 5%;
   padding-right: 1%;
@@ -56,6 +57,7 @@
   font-weight: bolder;
   font-size: 20px !important;
   font-family: 'Montserrat';
+  
 }
 .left-box {
   width: 40%;
@@ -73,6 +75,7 @@
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
+  
 }
 @media only screen and (max-width: 900px){
   .left {
@@ -82,30 +85,44 @@
 }
 .left:hover {
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
 }
-.title {
+.title1 {
   position: absolute !important;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-left: 2%;
   top: 20px !important;
   font-size: 23px !important;
   text-decoration: none !important;
   color: transparent;
-  background-image: url('./images/caleblogo-wht.png');
+  background-image: url('./images/caleblogo-transparent-blk.png');
   background-size: contain;
   background-repeat: no-repeat;
-  height: 90px;
+  height: 60px;
+  width: 155px;
+  text-decoration: none;
+  margin-top: .75%;
+}
+.title2 {
+  position: absolute !important;
+  margin-left: 2%;
+  top: 20px !important;
+  font-size: 23px !important;
+  text-decoration: none !important;
+  color: transparent;
+  background-image: url('./images/caleblogo-transparent-wht.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60px;
   width: 155px;
   text-decoration: none;
   margin-top: .75%;
 }
 .faketitle {
-  text-decoration: none;
+  text-decoration: none !important;
   color: transparent;
   font-size: 40px;
 }
-.title :hover {
+.faketitle:hover {
   color: transparent;
   text-decoration: none;
 }
@@ -135,12 +152,85 @@
   
 }
 .a {
-  background-image: url(./images/calebultrawide.jpg);
+  background-image: url(./images/calebbigpng1.png);
+  
+}
+.atext {
+  font-size: 72px;
+  font-family: bold Poppins, sans-serif;
+  font-weight: bolder;
+  background: linear-gradient(to right, #5d41f9, #8b0fff);
+  background-clip: text;
+  color: transparent;
+  width: 30%;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 50%;
+  padding-top: 12%;
+ 
+}
+.asubtext {
+  font-size: 23px;
+  font-weight: 800;
+  width: 20%;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 70%;
+  padding-top: 1%;
+}
+.esub1 {
+  font-size: 23px;
+  font-weight: 800;
+  width: 27%;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 70%;
+  padding-top: 1%;
+}
+.esubtext {
+  font-size: 40px;
+  font-family: bold Poppins, sans-serif;
+  font-weight: bolder;
+  width: 30%;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 50%;
 }
 @media (max-width: 800px){
   .a {
-    background-image: url(./images/calebphototall.JPG);
+    background-image: url(./images/calebphone1.png);
     background-attachment: scroll;
+  }
+  .atext {
+    font-size: 30px;
+    width: 47%;
+    padding-top: 40%;
+    margin-left: 10%;
+  }
+  .asubtext {
+    font-size: 16px;
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 1%;
+  }
+  .esub1 {
+    font-size: 16px;
+    font-weight: 800;
+    width: 50%;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 70%;
+    padding-top: 1%;
+  }
+  .esubtext {
+    font-size: 23px;
+    font-family: bold Poppins, sans-serif;
+    font-weight: bolder;
+    width: 44%;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 50%;
+    overflow-wrap: break-word;
   }
 }
 .b {
@@ -195,25 +285,41 @@ hr {
 
 
 .c {
-  background-image: url(./images/newpic6.jpg);
+  background: linear-gradient(to bottom right, #3204fdba, #9907facc), url(./images/newpic6.jpg) no-repeat top center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 .d {
-  background-image: url(./images/newpic3.jpg);
+  background: linear-gradient(to top right, #1e2427f8, #1e2427ea), url(./images/newpic3.jpg) no-repeat top center;
+  background-attachment: fixed;
   background-position-y: 90%;
+  
+}
+
+.e {
+  background-image: url(./images/cpulong.png);
+  background-attachment: scroll;
 }
 
 @media (max-width: 800px){
   .c {
     background-attachment: scroll;
-    background-image: url(./images/newpic5.jpg);
+    background: linear-gradient(to bottom right, #3204fdba, #9907facc), url(./images/newpic5.jpg) no-repeat top center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .d {
     background-attachment: scroll;
-    background-image: url(./images/newpic1.jpg);
+    background: linear-gradient(to top right, #1e2427f8, #1e2427ea), url(./images/newpic1.jpg) no-repeat top center;
     background-position-y: auto;
   }
-  
+  .e {
+    background-image: url(./images/cpuphone.png);
+  }
 }
 
 
@@ -226,6 +332,11 @@ hr {
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
 }
+.ts {
+  background: linear-gradient(to right, #5d41f9, #8b0fff);
+  background-clip: text;
+  color: transparent;
+}
 .designyours {
   margin-bottom: 5%;
   margin-top: 20%;
@@ -234,6 +345,10 @@ hr {
   text-transform: uppercase;
   font-style: italic;
   color: black;
+}
+.codebtn {
+  background: linear-gradient(to right, #5d41f9, #8b0fff);
+  border-color: #8b0fff !important;
 }
 
 @media (max-width: 800px){
@@ -308,21 +423,7 @@ hr {
   }
 }
 
-#icon1:hover + .showme {
-  display: inline-block;
-}
-#icon2:hover + .showme {
-  display: inline-block;
-}
-#icon3:hover + .showme {
-  display: inline-block;
-}
-#icon4:hover + .showme {
-  display: inline-block;
-}
-#icon5:hover + .showme {
-  display: inline-block;
-}
+
 /* contact */
 .contact-middle {
   color: white;

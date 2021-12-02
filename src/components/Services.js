@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
+import $ from 'jquery';
 
 import kenexample from '../images/kenexample.png';
 import russoexample from '../images/russoexample.png';
@@ -21,10 +22,21 @@ import sbp from '../images/sbp-logo.png';
 import synthbassexample from '../images/synthbassexample.png';
 import roto from '../images/roto.png';
 import rotoexample from '../images/rotoexample.png';
+import ywamexample from '../images/ywamexample.png';
+import lessons from '../images/lp-logo.png';
 
-class Services extends Component {
-  
-  render() {
+
+const Services = () => {
+    
+    $(document).ready(function(){
+        
+            $("#title").removeClass('title1').addClass('title2');
+            $('#bars').css('color' , 'white');
+        
+      }) 
+
+
+
     return (
         <div className='services'>
           <a id="top"/>
@@ -52,6 +64,16 @@ class Services extends Component {
                     <h4 className="projecttext">WordPress</h4>
                     <br/>
                 </div>
+
+                <div className='webprojects'>
+                <a href="https://ywamazua.com">
+                    <img src={ywamexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">YWAM Azua</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">WordPress</h4>
+                    <br/>
+                </div>
               
               
                 <div className='webprojects'>
@@ -64,7 +86,15 @@ class Services extends Component {
                     <br/>
                 </div>
               
-              
+                <div className='webprojects'>
+                <a href="https://shop.jfc.org">
+                    <img src={jfcstoreexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Jubilee Store</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">WordPress and WooCommerce</h4>
+                    <br/>
+                </div>
              
                 <div className='webprojects'>
                 <a href="https://worshippro.org">
@@ -84,17 +114,6 @@ class Services extends Component {
                     <h2 className="projecttext ptitles">Greenhouse Botanicals</h2>
                     <hr className="projhr"/>
                     <h4 className="projecttext">React</h4>
-                    <br/>
-                </div>
-              
-              
-                <div className='webprojects'>
-                <a href="https://shop.jfc.org">
-                    <img src={jfcstoreexample} className='projectimage'/>
-                    </a>
-                    <h2 className="projecttext ptitles">Jubilee Store</h2>
-                    <hr className="projhr"/>
-                    <h4 className="projecttext">WordPress and WooCommerce</h4>
                     <br/>
                 </div>
               
@@ -182,11 +201,14 @@ class Services extends Component {
                 <div className='logoprojects'>
                     <img src={roto} className='logoimage alsize'/>
                 </div>
+                <div className='logoprojects'>
+                    <img src={lessons} className='logoimage alsize'/>
+                </div>
             </div>
            </div>
         </div>
     );
-  }
+
 }
 
 export default Services;

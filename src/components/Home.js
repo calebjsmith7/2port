@@ -1,29 +1,49 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
+import $ from 'jquery';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 
-class Home extends Component {
-  
+const Home = () => {
+    
+    $(document).ready(function(){
+        
+            $("#title").removeClass('title2').addClass('title1');
+            $("#bars").css("color", "black");
+            $(".nbg").css("background-color", "#2b2b2b5b");
 
-  render() {
+            $(window).scroll(function(){
+                var scroll = $(window).scrollTop();
+                if (scroll > 600) {
+                    $("#title").removeClass('title1').addClass('title2');
+                    $("#bars").css("color", "white");
+                    $(".nbg").css("background-color", "#ffffff5b");
+                }
+                else{
+                    $("#title").removeClass('title2').addClass('title1');
+                    $("#bars").css("color", "black");
+                    $(".nbg").css("background-color", "#2b2b2b5b"); 	
+                }
+            })
+       
+      })
+
+
+
+  
 
     return (
         <div>
             <a id="top"></a>
             <div className="a">
-                
+                <h1 className="atext">Caleb Smith is a Web Developer based in Denver.</h1>
+                <p className='asubtext'>I create beautiful web experiences for businesses and non-profits. </p>
             </div>
             
             
-            <div className="b">
-                <div className="centertext">
-                    <h1 className="info">Partnering with small businesses and non-profits to create beautiful and high-performing websites.</h1>
-                    <hr className="binfoh"/>
-                </div>
-            </div>
+            
         
 
             <div className="c">
@@ -33,7 +53,7 @@ class Home extends Component {
                 </a>
             </div>
             <div className="d">
-                <h3 className="mods">TECH STACK</h3>
+                <h3 className="mods ts">TECH STACK</h3>
                 <div className="techlogos">
                     <div className="techlogo fab fa-js-square" id="icon1"></div>
                     <div className="showme">JavaScript</div>
@@ -47,11 +67,17 @@ class Home extends Component {
                     <div className="showme">Wordpress</div>
                 </div>
                 
-                <a href="http://github.com/calebjsmith7"><button className="designyours btn btn-light">VIEW CODE</button></a>
+                <a href="http://github.com/calebjsmith7"><button className="designyours codebtn btn btn-light">VIEW CODE</button></a>
+            </div>
+            <a id="homecontact"></a>
+            <div className="e">
+                <h1 className="atext">For any work proposal send an email:</h1>
+                <h2 className="esubtext">calebjoelsmith@gmail.com</h2>
+                <p className='esub1'>My passion is working closely with interesting companies to visually elevate their brand. Lets talk to discuss availibility &amp; find a fit.</p>
             </div>
         </div>
     );
-  }
+  
 }
 
 export default Home;
