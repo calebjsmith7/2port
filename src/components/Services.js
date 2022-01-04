@@ -11,6 +11,7 @@ import worshipproexample from '../images/worshipproexample.png';
 import greenhouseexample from '../images/greenhouseexample.png';
 import jfcstoreexample from '../images/jfcstoreexample.png';
 import jfcmissionsexample from '../images/jfcmissionsexample.png';
+import setlistgeniusexample from '../images/setlistgeniusexa.png';
 import jfcexample from '../images/jfcexample.png';
 import jfcstore from '../images/jfcstore.png';
 import kenlogowht from '../images/kenlogowht.png';
@@ -24,6 +25,7 @@ import roto from '../images/roto.png';
 import rotoexample from '../images/rotoexample.png';
 import ywamexample from '../images/ywamexample.png';
 import lessons from '../images/lp-logo.png';
+import setlist from '../images/setlistgenius.png';
 
 
 const Services = () => {
@@ -156,6 +158,16 @@ const Services = () => {
 
                 <div className='webprojects'>
                     <a href="https://apps.apple.com/us/app/synth-bass-pro/id1592554833">
+                        <img src={setlistgeniusexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Setlist Genius</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">React Native</h4>
+                    <br/>
+                </div>
+
+                <div className='webprojects'>
+                    <a href="https://apps.apple.com/us/app/synth-bass-pro/id1592554833">
                         <img src={synthbassexample} className='projectimage'/>
                     </a>
                     <h2 className="projecttext ptitles">Synth Bass Pro</h2>
@@ -203,6 +215,9 @@ const Services = () => {
                 </div>
                 <div className='logoprojects'>
                     <img src={lessons} className='logoimage alsize'/>
+                </div>
+                <div className='logoprojects'>
+                    <img src={setlist} className='logoimage'/>
                 </div>
             </div>
            </div>
