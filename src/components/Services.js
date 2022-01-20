@@ -12,6 +12,7 @@ import greenhouseexample from '../images/greenhouseexample.png';
 import jfcstoreexample from '../images/jfcstoreexample.png';
 import jfcmissionsexample from '../images/jfcmissionsexample.png';
 import setlistgeniusexample from '../images/setlistgeniusexa.png';
+import isaexample from '../images/isaexample.png';
 import jfcexample from '../images/jfcexample.png';
 import jfcstore from '../images/jfcstore.png';
 import kenlogowht from '../images/kenlogowht.png';
@@ -47,6 +48,15 @@ const Services = () => {
             <div className='boxes'>
             
                 <div className='webprojects'>
+                    <a href="https://thisisisaac.com/">
+                    <img src={isaexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">isaac! Artist Site</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">Wordpress</h4>
+                    <br/>
+                </div>
+                <div className='webprojects'>
                     <a href="https://kennedy-84a26.web.app/">
                     <img src={kenexample} className='projectimage'/>
                     </a>
@@ -55,7 +65,6 @@ const Services = () => {
                     <h4 className="projecttext">React</h4>
                     <br/>
                 </div>
-              
               
                 <div className='webprojects'>
                 <a href="https://daniellelrusso.com">
