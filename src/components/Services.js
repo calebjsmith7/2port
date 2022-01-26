@@ -12,6 +12,7 @@ import greenhouseexample from '../images/greenhouseexample.png';
 import jfcstoreexample from '../images/jfcstoreexample.png';
 import jfcmissionsexample from '../images/jfcmissionsexample.png';
 import setlistgeniusexample from '../images/setlistgeniusexa.png';
+import magnaexample from '../images/magnaexample.png';
 import isaexample from '../images/isaexample.png';
 import jfcexample from '../images/jfcexample.png';
 import jfcstore from '../images/jfcstore.png';
@@ -56,6 +57,26 @@ const Services = () => {
                     <h4 className="projecttext">Wordpress</h4>
                     <br/>
                 </div>
+
+                <div className='webprojects'>
+                <a href="https://daniellelrusso.com">
+                    <img src={russoexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Danielle Russo</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">WordPress</h4>
+                    <br/>
+                </div>
+                <div className='webprojects'>
+                <a href="https://magnaplumbingservices.com">
+                    <img src={magnaexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Magna Plumbing Services</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">WordPress</h4>
+                    <br/>
+                </div>
+
                 <div className='webprojects'>
                     <a href="https://kennedy-84a26.web.app/">
                     <img src={kenexample} className='projectimage'/>
@@ -66,15 +87,6 @@ const Services = () => {
                     <br/>
                 </div>
               
-                <div className='webprojects'>
-                <a href="https://daniellelrusso.com">
-                    <img src={russoexample} className='projectimage'/>
-                    </a>
-                    <h2 className="projecttext ptitles">Danielle Russo</h2>
-                    <hr className="projhr"/>
-                    <h4 className="projecttext">WordPress</h4>
-                    <br/>
-                </div>
 
                 <div className='webprojects'>
                 <a href="https://ywamazua.com">
