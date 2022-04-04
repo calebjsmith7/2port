@@ -10,20 +10,20 @@ const Home = () => {
     
     $(document).ready(function(){
         
-            $("#title").removeClass('title2').addClass('title1');
-            $("#bars").css("color", "black");
+           // $("#title").removeClass('title2').addClass('title1');
+          //  $("#bars").css("color", "black");
             $(".nbg").css("background-color", "#2b2b2b5b");
 
             $(window).scroll(function(){
                 var scroll = $(window).scrollTop();
                 if (scroll > 600) {
-                    $("#title").removeClass('title1').addClass('title2');
-                    $("#bars").css("color", "white");
+                 //   $("#title").removeClass('title1').addClass('title2');
+                   // $("#bars").css("color", "white");
                     $(".nbg").css("background-color", "#ffffff5b");
                 }
                 else{
-                    $("#title").removeClass('title2').addClass('title1');
-                    $("#bars").css("color", "black");
+                  //  $("#title").removeClass('title2').addClass('title1');
+                   // $("#bars").css("color", "black");
                     $(".nbg").css("background-color", "#2b2b2b5b"); 	
                 }
             })
@@ -37,21 +37,15 @@ const Home = () => {
     return (
         <div>
             <a id="top"></a>
-            <div className="a">
-                <h1 className="atext">Caleb Smith is a Web Developer based in Denver.</h1>
-                <p className='asubtext'>I create beautiful web experiences for businesses and non-profits. </p>
-            </div>
-            
-            
-            
-        
-
+            <div className="a"/>
+            <a id="projects"/>
             <div className="c">
                 <a id="restorations">
                     <h3 className="mods">WEB PROJECTS</h3>
                     <HashLink to="/services"><button className="designyours btn btn-light">EXPLORE</button></HashLink>
                 </a>
             </div>
+            <a id="techstack"/>
             <div className="d">
                 <h3 className="mods ts">TECH STACK</h3>
                 <div className="techlogos">

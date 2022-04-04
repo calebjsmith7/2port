@@ -31,7 +31,7 @@ function handleCollapse() {
     return (
         <nav className="navbar navbar-dark navv fixed-top">
             
-            <div id="title" className="navbar-brand title1 title2"><HashLink to ='/#top' className="faketitle">home</HashLink></div>
+            <div id="title" className="navbar-brand title1 title2"><HashLink to ='/#top' className='faketitle'>Caleb Smith</HashLink></div>
             <button className="navbar-toggler n ml-auto" id="navbarbtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="customicon"><i id="bars" class="fas fa-bars"></i></span>
                 </button>

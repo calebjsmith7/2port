@@ -94,7 +94,7 @@
   font-size: 23px !important;
   text-decoration: none !important;
   color: transparent;
-  background-image: url('./images/caleblogo-transparent-blk.png');
+  background-image: url('./images/calebsmith_newlogo_wht.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 60px;
@@ -109,7 +109,7 @@
   font-size: 23px !important;
   text-decoration: none !important;
   color: transparent;
-  background-image: url('./images/caleblogo-transparent-wht.png');
+  background-image: url('./images/calebsmith_newlogo_wht.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 60px;
@@ -152,11 +152,12 @@
   
 }
 .a {
-  background-image: url(./images/calebbigpng1.png);
+  background-image: url(./images/calebnewhorizontal.jpg);
+  background-position: center top;
   
 }
 .atext {
-  font-size: 72px;
+  font-size: 3.5vw;
   font-family: bold Poppins, sans-serif;
   font-weight: bolder;
   background: linear-gradient(to right, #5d41f9, #8b0fff);
@@ -179,7 +180,7 @@
   padding-top: 1%;
 }
 .esub1 {
-  font-size: 23px;
+  font-size: 1.5vw;
   font-weight: 800;
   width: 27%;
   text-align: left;
@@ -188,7 +189,7 @@
   padding-top: 1%;
 }
 .esubtext {
-  font-size: 40px;
+  font-size: 2.5vw;
   font-family: bold Poppins, sans-serif;
   font-weight: bolder;
   width: 30%;
@@ -198,7 +199,7 @@
 }
 @media (max-width: 800px){
   .a {
-    background-image: url(./images/calebphone1.png);
+    background-image: url(./images/calebnewvertical.JPEG);
     background-attachment: scroll;
   }
   .atext {

@@ -12,6 +12,7 @@ import greenhouseexample from '../images/greenhouseexample.png';
 import jfcstoreexample from '../images/jfcstoreexample.png';
 import jfcmissionsexample from '../images/jfcmissionsexample.png';
 import setlistgeniusexample from '../images/setlistgeniusexa.png';
+import backroadsexample from '../images/backroadsexample.png';
 import magnaexample from '../images/magnaexample.png';
 import isaexample from '../images/isaexample.png';
 import jfcexample from '../images/jfcexample.png';
@@ -63,6 +64,16 @@ const Services = () => {
                     <img src={russoexample} className='projectimage'/>
                     </a>
                     <h2 className="projecttext ptitles">Danielle Russo</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">WordPress</h4>
+                    <br/>
+                </div>
+
+                <div className='webprojects'>
+                <a href="https://backroadsministry.org">
+                    <img src={backroadsexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Backroads Ministry</h2>
                     <hr className="projhr"/>
                     <h4 className="projecttext">WordPress</h4>
                     <br/>
