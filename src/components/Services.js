@@ -29,6 +29,7 @@ import rotoexample from '../images/rotoexample.png';
 import ywamexample from '../images/ywamexample.png';
 import lessons from '../images/lp-logo.png';
 import setlist from '../images/setlistgenius.png';
+import magnaexa from '../images/magnaexa.png';
 
 
 const Services = () => {
@@ -49,15 +50,24 @@ const Services = () => {
           <h1 className='satext'>Websites</h1>
             <div className='boxes'>
             
-                <div className='webprojects'>
-                    <a href="https://thisisisaac.com/">
-                    <img src={isaexample} className='projectimage'/>
-                    </a>
-                    <h2 className="projecttext ptitles">isaac! Artist Site</h2>
-                    <hr className="projhr"/>
-                    <h4 className="projecttext">Wordpress</h4>
-                    <br/>
-                </div>
+                    <div className='webprojects'>
+                        <a href="https://magnafab.com/">
+                            <img src={magnaexa} className='projectimage' />
+                        </a>
+                        <h2 className="projecttext ptitles">Magna Fab</h2>
+                        <hr className="projhr" />
+                        <h4 className="projecttext">Wordpress</h4>
+                        <br />
+                    </div>
+                    <div className='webprojects'>
+                        <a href="https://thisisisaac.com/">
+                            <img src={isaexample} className='projectimage' />
+                        </a>
+                        <h2 className="projecttext ptitles">isaac! Artist Site</h2>
+                        <hr className="projhr" />
+                        <h4 className="projecttext">Wordpress</h4>
+                        <br />
+                    </div>
 
                 <div className='webprojects'>
                 <a href="https://daniellelrusso.com">
