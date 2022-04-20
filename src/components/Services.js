@@ -30,7 +30,8 @@ import ywamexample from '../images/ywamexample.png';
 import lessons from '../images/lp-logo.png';
 import setlist from '../images/setlistgenius.png';
 import magnaexa from '../images/magnaexa.png';
-
+import plexample from '../images/pl-example.png';
+import pllogo from '../images/pl-logo-wht.png';
 
 const Services = () => {
     
@@ -190,6 +191,15 @@ const Services = () => {
 
                 <div className='webprojects'>
                     <a href="https://apps.apple.com/us/app/worship-pads-pro/id1586199401">
+                        <img src={plexample} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Prayer List</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">React Native</h4>
+                    <br/>
+                </div>
+                <div className='webprojects'>
+                    <a href="https://apps.apple.com/us/app/worship-pads-pro/id1586199401">
                         <img src={wppexample} className='projectimage'/>
                     </a>
                     <h2 className="projecttext ptitles">Worship Pads Pro</h2>
@@ -260,6 +270,9 @@ const Services = () => {
                 </div>
                 <div className='logoprojects'>
                     <img src={setlist} className='logoimage'/>
+                </div>
+                <div className='logoprojects'>
+                    <img src={pllogo} className='logoimage'/>
                 </div>
             </div>
            </div>
