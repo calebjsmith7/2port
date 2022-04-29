@@ -32,6 +32,7 @@ import setlist from '../images/setlistgenius.png';
 import magnaexa from '../images/magnaexa.png';
 import plexample from '../images/pl-example.png';
 import pllogo from '../images/pl-logo-wht.png';
+import mmexample from '../images/magnamechexample.png';
 
 const Services = () => {
     
@@ -90,14 +91,14 @@ const Services = () => {
                     <br/>
                 </div>
                 <div className='webprojects'>
-                <a href="https://magnaplumbingservices.com">
-                    <img src={magnaexample} className='projectimage'/>
-                    </a>
-                    <h2 className="projecttext ptitles">Magna Plumbing Services</h2>
-                    <hr className="projhr"/>
-                    <h4 className="projecttext">WordPress</h4>
-                    <br/>
-                </div>
+                        <a href="https://magnamechanical.net/">
+                            <img src={mmexample} className='projectimage' />
+                        </a>
+                        <h2 className="projecttext ptitles">Magna Mechanical</h2>
+                        <hr className="projhr" />
+                        <h4 className="projecttext">Wordpress</h4>
+                        <br />
+                    </div>
 
                 <div className='webprojects'>
                     <a href="https://kennedy-84a26.web.app/">
