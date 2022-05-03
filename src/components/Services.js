@@ -33,6 +33,7 @@ import magnaexa from '../images/magnaexa.png';
 import plexample from '../images/pl-example.png';
 import pllogo from '../images/pl-logo-wht.png';
 import mmexample from '../images/magnamechexample.png';
+import plmexa from '../images/plmexa.png';
 
 const Services = () => {
     
@@ -191,10 +192,19 @@ const Services = () => {
             <div className="boxes">
 
                 <div className='webprojects'>
-                    <a href="https://apps.apple.com/us/app/worship-pads-pro/id1586199401">
+                    <a href="https://apps.apple.com/us/app/prayer-list-a-prayer-app/id1614678041">
                         <img src={plexample} className='projectimage'/>
                     </a>
                     <h2 className="projecttext ptitles">Prayer List</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">React Native</h4>
+                    <br/>
+                </div>
+                <div className='webprojects'>
+                    <a href="https://apps.apple.com/us/app/prayer-list-for-ministries/id1614678377">
+                        <img src={plmexa} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Prayer List for Minsitries</h2>
                     <hr className="projhr"/>
                     <h4 className="projecttext">React Native</h4>
                     <br/>
