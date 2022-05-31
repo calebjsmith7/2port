@@ -50,7 +50,7 @@ const Services = () => {
         <div className='services'>
           <a id="top"/>
           <div className='sb'>
-          <h1 className='satext'>Websites</h1>
+          <h1 className='satext'>WEBSITES</h1>
             <div className='boxes'>
             
                     <div className='webprojects'>
@@ -188,7 +188,7 @@ const Services = () => {
               
             </div>
 
-            <h1 className='satext'>Apps</h1>
+            <h1 className='satext'>APPS</h1>
             <div className="boxes">
 
                 <div className='webprojects'>
@@ -250,7 +250,7 @@ const Services = () => {
 
             </div>
 
-            <h1 className='satext'>Logos</h1>
+            <h1 className='satext'>LOGOS</h1>
             <div className="boxes">
                 <div className='logoprojects'>
                     <img src={jfcstore} className='logoimage'/>

@@ -605,12 +605,15 @@ hr {
   height: 50vh;
 }
 .satext {
-  color: white;
   font-size: 70px;
   padding-top: 3%;
   padding-bottom: 3%;
-  font-weight: 400;
-  font-family: 'Montserrat';
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  background: linear-gradient(to right, #5d41f9, #8b0fff);
+  background-clip: text;
+  color: transparent;
 }
 
 @media (max-width: 800px){
@@ -626,8 +629,10 @@ hr {
   }
 }
 .sb {
-  background: #ffffff;
-  background-image: url(./images/coolbg.jpg);
+  background: #1e2427;
+  background: linear-gradient(to bottom right, #1e2427f8, #1e2427d6), url(./images/coolbg.jpg) no-repeat top center;
+  background-attachment: fixed;
+  background-position-y: 90%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
