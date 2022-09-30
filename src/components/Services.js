@@ -34,6 +34,8 @@ import plexample from '../images/pl-example.png';
 import pllogo from '../images/pl-logo-wht.png';
 import mmexample from '../images/magnamechexample.png';
 import plmexa from '../images/plmexa.png';
+import lpguitar from '../images/lessonpro.png';
+
 
 const Services = () => {
     
@@ -190,7 +192,15 @@ const Services = () => {
 
             <h1 className='satext'>APPS</h1>
             <div className="boxes">
-
+            <div className='webprojects'>
+                    <a href="https://apps.apple.com/us/app/lesson-pro-guitar-lessons/id1614678527">
+                        <img src={lpguitar} className='projectimage'/>
+                    </a>
+                    <h2 className="projecttext ptitles">Lesson Pro - Guitar Lessons</h2>
+                    <hr className="projhr"/>
+                    <h4 className="projecttext">React Native</h4>
+                    <br/>
+                </div>
                 <div className='webprojects'>
                     <a href="https://apps.apple.com/us/app/prayer-list-a-prayer-app/id1614678041">
                         <img src={plexample} className='projectimage'/>
@@ -220,7 +230,7 @@ const Services = () => {
                 </div>
 
                 <div className='webprojects'>
-                    <a href="https://apps.apple.com/us/app/synth-bass-pro/id1592554833">
+                    <a href="https://apps.apple.com/us/app/setlist-genius-pads-click/id1599615188">
                         <img src={setlistgeniusexample} className='projectimage'/>
                     </a>
                     <h2 className="projecttext ptitles">Setlist Genius</h2>
